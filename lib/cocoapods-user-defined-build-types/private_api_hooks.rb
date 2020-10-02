@@ -27,7 +27,7 @@ module Pod
 
         if options.is_a?(Hash)
           options.each do |k,v|
-            next if not options.key?(Pod::UserOption.keyword)
+            next if k != Pod::UserOption.keyword
              
             user_build_type = options.delete(k)
             if Pod::UserOption.keyword_mapping.key?(user_build_type)
