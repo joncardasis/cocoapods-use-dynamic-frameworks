@@ -1,5 +1,5 @@
 # cocoapods-user-defined-build-types
-![Latest Version](https://img.shields.io/badge/Latest_supported_CocoaPods-1.9.1-gray.svg)
+![Latest Version](https://img.shields.io/badge/Latest_supported_CocoaPods-1.10.0.rc.1-gray.svg)
 
 Allow CocoaPods to mix dynamic/static libaries/frameworks.
 
